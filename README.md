@@ -38,7 +38,7 @@ yarn add -D @shinGangan/nuxt-markuplint
     "@shinGangan/markuplint"
   ],
   markuplint: {
-    // module options
+    // Options
   }
 }
 ```

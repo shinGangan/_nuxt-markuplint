@@ -3,9 +3,9 @@
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
-[![Module Docus][docs-src]][docs-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 [![Markuplint][ml-src]][ml-href]
+[![Module Docus][docs-src]][docs-href]
 
 Integrate [Markuplint][ml-href] into your [Nuxt][nuxt-href] application.
 
@@ -57,9 +57,9 @@ This repository is licensed under the [MIT License](./LICENSE).
 [npm-downloads-href]: https://npmjs.com/package/my-module
 [license-src]: https://img.shields.io/npm/l/my-module.svg?style=plastic&colorA=18181B&colorB=28CF8D
 [license-href]: https://npmjs.com/package/my-module
-[docs-src]: https://img.shields.io/badge/Module%20Docus-18181B?style=plastic&logo=nuxt.js
-[docs-href]: https://nuxt.com
 [nuxt-src]: https://img.shields.io/badge/Nuxt-3.8-28CF8D?style=plastic&logo=nuxt.js&colorA=18181B
 [nuxt-href]: https://nuxt.com
-[ml-src]: https://img.shields.io/badge/markuplint-1572EB?style=plastic&logo=markuplint
+[ml-src]: https://img.shields.io/badge/markuplint-3.14-1572EB?style=plastic&logo=markuplint&colorA=18181B
 [ml-href]: https://markuplint.dev/
+[docs-src]: https://img.shields.io/badge/Module%20Docus-18181B?style=plastic&logo=nuxt.js
+[docs-href]: https://nuxt.com

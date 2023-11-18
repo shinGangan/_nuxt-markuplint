@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "dependencyDashboard": false,
+  "extends": [
+    "config:base",
+    "@nuxtjs",
+    ":prConcurrentLimit20",
+    ":semanticCommitTypeAll(chore)",
+    ":enableVulnerabilityAlertsWithLabel(security)"
+  ],
+  "labels": ["🤖 renovate"],
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "groupName": "ESLint",
+      "groupSlug": "eslint",
+      "matchPackagePatterns": ["eslint"]
+    }
+  ]
+}

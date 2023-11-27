@@ -4,13 +4,17 @@
   "extends": [
     "config:base",
     "@nuxtjs",
-    ":prConcurrentLimit20",
     ":semanticCommitTypeAll(chore)",
+    ":separateMultipleMajorReleases",
     ":enableVulnerabilityAlertsWithLabel(security)"
   ],
+  "schedule": ["every weekend"],
+  "reviewers": ["shinGangan"],
+  "prConcurrentLimit": 10,
   "labels": ["🤖 renovate"],
   "lockFileMaintenance": {
-    "enabled": true
+    "enabled": true,
+    "automerge": true
   },
   "packageRules": [
     {

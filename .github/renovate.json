@@ -21,6 +21,11 @@
       "groupName": "ESLint",
       "groupSlug": "eslint",
       "matchPackagePatterns": ["eslint"]
+    },
+    {
+      "groupName": "Markuplint",
+      "groupSlug": "markuplint",
+      "matchPackagePatterns": ["markuplint", "@markuplint/"]
     }
   ]
 }

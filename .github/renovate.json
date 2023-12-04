@@ -8,13 +8,15 @@
     ":separateMultipleMajorReleases",
     ":enableVulnerabilityAlertsWithLabel(security)"
   ],
+  "timezone": "Asia/Tokyo",
   "schedule": ["every weekend"],
   "reviewers": ["shinGangan"],
   "prConcurrentLimit": 10,
   "labels": ["🤖 renovate"],
   "lockFileMaintenance": {
     "enabled": true,
-    "automerge": true
+    "automerge": true,
+    "reviewers": ["shinGangan"]
   },
   "packageRules": [
     {

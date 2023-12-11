@@ -45,6 +45,9 @@ importers:
       changelogen:
         specifier: ^0.5.5
         version: 0.5.5
+      consola:
+        specifier: ^3.2.3
+        version: 3.2.3
       eslint:
         specifier: ^8.55.0
         version: 8.55.0

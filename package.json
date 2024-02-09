@@ -33,13 +33,13 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@markuplint/vue-parser": "^4.0.1",
-    "@markuplint/vue-spec": "^4.0.0",
+    "@markuplint/vue-parser": "^4.0.2",
+    "@markuplint/vue-spec": "^4.0.1",
     "@nuxt/kit": "^3.10.1",
-    "markuplint": "^4.0.1"
+    "markuplint": "^4.0.3"
   },
   "devDependencies": {
-    "@markuplint/ml-config": "^4.0.0",
+    "@markuplint/ml-config": "^4.0.1",
     "@nuxt/devtools": "latest",
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxt/module-builder": "^0.5.5",

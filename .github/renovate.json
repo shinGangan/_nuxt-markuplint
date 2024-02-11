@@ -1,33 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "dependencyDashboard": false,
   "extends": [
-    "config:base",
     "@nuxtjs",
-    ":semanticCommitTypeAll(chore)",
-    ":separateMultipleMajorReleases",
-    ":enableVulnerabilityAlertsWithLabel(security)"
+    "github>shinGangan/renovate-config",
+    "github>shinGangan/renovate-config//configs/lint/linters",
+    "github>shinGangan/renovate-config//configs/lint/markuplint",
   ],
-  "timezone": "Asia/Tokyo",
-  "schedule": ["every weekend"],
-  "reviewers": ["shinGangan"],
-  "prConcurrentLimit": 10,
-  "labels": ["🤖 renovate"],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "automerge": true,
-    "reviewers": ["shinGangan"]
-  },
-  "packageRules": [
-    {
-      "groupName": "ESLint",
-      "groupSlug": "eslint",
-      "matchPackagePatterns": ["eslint"]
-    },
-    {
-      "groupName": "Markuplint",
-      "groupSlug": "markuplint",
-      "matchPackagePatterns": ["markuplint", "@markuplint/"]
-    }
-  ]
+  "reviewers": ["shinGangan"]
 }

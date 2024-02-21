@@ -1,4 +1,6 @@
-# Nuxt Markuplint
+# 🔈 rebuilt in a separate Repository: [nuxt-markuplint](https://github.com/shinGangan/nuxt-markuplint)
+
+# (Archive) Nuxt Markuplint
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
